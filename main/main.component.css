@@ -1,0 +1,7 @@
+.myshawdow{
+  box-shadow: 0 1px 10px violet;
+  transition: box-shadow 0.2s ease-in-out
+}
+.myshawdow:hover{
+  box-shadow: 0 1px 10px black;
+}

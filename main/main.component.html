@@ -1,0 +1,70 @@
+<div class="container border bg-dark mb-2 mt-2 ml-7" style="height: 600px;">
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Login</a>
+    </li>
+
+
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="card myshawdow smt-1 bg-primary" style="width: 18rem; text-align: center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnVXURL6v81j52nuALKEECsSk6qbQxbNGPJ07VImdu9U6_6i27&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title border-bottom">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-dark" data-toggle="modal" data-target="#mymodal">Error button</a>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+       <div class="card shawdow mt-1 bg-primary" style="width: 18rem; text-align: center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnVXURL6v81j52nuALKEECsSk6qbQxbNGPJ07VImdu9U6_6i27&usqp=CAU" class="card-img-top" alt="...">
+        <div class="card-body shawdow">
+          <h5 class="card-title border-bottom">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-dark">Go somewhere</a>
+        </div>
+       </div>
+    </div>
+
+    <div class="tab-pane fade" id="login" role="tabpanel" aria-labelledby="login-tab">
+       <button class="p-3" routerLink='/login' style="background-color: black; color: red;">GO TO LOGIN PAGE !</button>
+   </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  <div class="modal" id="mymodal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>It's Error !</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
